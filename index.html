@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Psychic Test</title>
+
+    <!-- Bootstrap Swatch Template -->
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.1.3/superhero/bootstrap.min.css"/> -->
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"/>
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script> -->
+    <!-- Custom CSS -->
+    <link rel="style" href="assets/css/style.css" />
+    <!-- Import game.js -->
+    
+    
+  </head>
+
+  <header>
+    <!-- <p id="guesses-left-text"></p> -->
+  </header>
+  <body>
+    <div class="container">
+        
+        <div class="jumbotron">
+            
+                <h1 class="text-center">CONFIDENTIAL: Psychic Evaluation:</h1>
+                <div class="row">
+                    <div class="col-md-8 offset-4">
+                        <p>Visualize a letter of the alphabet the psychic computer has picked.</p>
+                        <p>Type the letter you have visualized through the psychic connection.</p>
+                        <p>Psychic evaluation will occur over 10 sessions with 10 guesses each session.</p>
+                        <p>Receive your psychic evaluation below.</p>
+                    </div>
+                </div>
+            
+           
+            <div class="row">
+                <form class="col-md-8 offset-2">
+                    <div class="form-group row">
+                        <label for="colFormLabelLg" class="col-sm-3 col-form-label col-form-label-lg">Guesses:</label>
+                        <div class="col-sm-9">
+                            <div id="user-guesses-text" class="form-control form-control-lg">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <label for="colFormLabelLg" class="col-sm-3 col-form-label col-form-label-lg">Guesses Left:</label>
+                        <div class="col-sm-9">
+                            <div id="guesses-left-text" class="form-control form-control-lg">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <label for="colFormLabelLg" class="col-sm-3 col-form-label col-form-label-lg">Wins:</label>
+                        <div class="col-sm-9">
+                            <div id="wins-text" class="form-control form-control-lg">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <label for="colFormLabelLg" class="col-sm-3 col-form-label col-form-label-lg">Losses:</label>
+                        <div class="col-sm-9">
+                            <div id="losses-text" class="form-control form-control-lg">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="colFormLabelLg" class="col-sm-3 col-form-label col-form-label-lg">Sessions Left:</label>
+                        <div class="col-sm-9">
+                            <div id="sessions-left-text" class="form-control form-control-lg">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="colFormLabelLg" class="col-sm-3 col-form-label col-form-label-lg">Psychic Ability:</label>
+                        <div class="col-sm-9">
+                            <div id="evaluation-text" class="form-control form-control-lg">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="colFormLabelLg" class="col-sm-3 col-form-label col-form-label-lg">Evaluation:</label>
+                        <div class="col-sm-9">
+                            <div id="evaluation-text2" class="form-control form-control-lg">
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="assets/javascript/game.js"></script>
+  </body>
+  <footer>
+    
+  </footer>
+</html>
